@@ -35,4 +35,13 @@ urxvt.color14:      #34e2e2
 urxvt.color7:       #d3d7cf
 urxvt.color15:      #eeeeec
 
-urxvt.font: xft:ProggyVector Regular
+URxvt.title: Console
+URxvt*iconFile:  /home/bandi/rice/urxvt/icon/Terminal.png
+URxvt.cursorBlink: true
+URxvt.depth: 32
+URxvt*scrollBar: false
+!Urxvt.font: xft:JetbrainsMonoBold-51Xez:pixelsize=16
+URxvt*font: xft:JetbrainsMono:medium:size=13, xft:mono:medium:size=14
+xterm*faceName: xft:JetbrainsMono:medium:size=13, xft:mono:medium:size=14
+URxvt*geometry: 74x24
+URxvt.perl-ext-commoni: default, tabbed
